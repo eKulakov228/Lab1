@@ -5,7 +5,7 @@ int main()
 {
     int x,res;
     scanf("%d", &x);
-    res=8*x*x*x*x*x;
+    res=8*x*x*x*x*x; //x^5
     printf("Result is %d\n", res);
     return 0;
 }
