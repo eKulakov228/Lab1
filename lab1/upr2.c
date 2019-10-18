@@ -13,10 +13,10 @@ int main()
 	/*x=0.0374;
 	y=-0.825;
 	z=16;*/
-	up=1+pow(sin(x+y),2);
+	up=1+pow(sin(x+y),2); //числитель
 	down2=(2*y)/(1+x*x*y*y);
 	down1=x-down2;
-	down=fabs(down1);
+	down=fabs(down1); //знаменатель
 	ch1=(up/down)*pow(x,fabs(y));
 	ch2=pow(cos(atan(1/z)),2);
 	S=ch1+ch2;
